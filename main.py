@@ -27,3 +27,4 @@ df.index = df['Date']
 #plot
 plt.figure(figsize=(16,8))
 plt.plot(df['Close'], label='Close Price history')
+plt.show()
